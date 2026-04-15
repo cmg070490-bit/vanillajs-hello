@@ -1,5 +1,23 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background-color: aliceblue;
+    margin: 0; /* quita espacio por defecto */
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;  /* uno debajo del otro */
+    justify-content: center; /* centra vertical */
+    align-items: center;     /* centra horizontal */
+    height: 100vh;
+}
+
+#texto-1 {
+
+}
+
+
+#texto-2 {
+    
 }
